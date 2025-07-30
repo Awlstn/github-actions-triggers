@@ -7,4 +7,4 @@ jobs:
     steps:
       - run: echo "ref=${{ github.ref_name }}"
       - run: echo "name=${{ github.event_name }}"
-      - run: echo "action=${{ github.event_action }}"
+      - run: echo "action=${{ github.event.action }}"
